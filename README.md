@@ -8,6 +8,7 @@ O projeto foi desenvolvido em duas versões para atender a diferentes objetivos 
 
     portfolio_css.html: Utilizando HTML e CSS puro. Perfeito para ensinar os fundamentos do CSS, como Flexbox, Grid e Media Queries para responsividade.
 
+[Apresentação de Slides](https://www.canva.com/design/DAGzRVl6128/pl54alHNT97yCIfZAM94mQ/view?utm_content=DAGzRVl6128&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h3e3da28a73)
 
 ### 🛠️ Tecnologias Utilizadas
 
