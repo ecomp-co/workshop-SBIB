@@ -1,0 +1,202 @@
+/* VARIÁVEIS E ESTILOS GLOBAIS */
+:root {
+    --cor-principal:
+    --cor-principal-hover: 
+    --cor-fundo: 
+    --cor-fundo-secao: 
+    --cor-texto-primario: 
+    --cor-texto-secundario: 
+    --cor-borda: 
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Adiciona um preenchimento superior à âncora para compensar a altura do cabeçalho fixo */
+section[id] {
+    scroll-margin-top: 80px;
+}
+
+body {
+    
+}
+
+.container {
+    
+}
+
+/* HEADER E NAVEGAÇÃO */
+.header {
+    
+}
+
+.navbar {
+
+}
+
+.logo {
+  
+}
+
+.nav-links {
+}
+
+.nav-links a {
+  
+}
+
+.nav-links a:hover {
+ 
+}
+
+/* SEÇÃO INICIAL */
+#inicio {
+
+}
+
+#inicio h1 {
+
+}
+
+#inicio .subtitulo {
+
+}
+
+#inicio .descricao {
+
+}
+
+.btn-principal {
+
+}
+
+.btn-principal:hover {
+
+}
+
+/* SEÇÕES GENÉRICAS E TÍTULOS */
+section {
+
+}
+
+.titulo-secao {
+
+}
+
+/* SEÇÃO SOBRE MIM */
+#sobre .sobre-container {
+
+}
+
+#sobre .perfil-img {
+
+}
+
+#sobre .habilidades {
+
+}
+
+#sobre .habilidade-tag {
+
+}
+
+/* SEÇÃO DE PROJETOS */
+#projetos {
+}
+
+.projetos-grid {
+
+}
+
+.projeto-card {
+
+}
+
+.projeto-card:hover {
+
+}
+
+.projeto-card img {
+}
+
+.projeto-card-conteudo {
+
+}
+
+.projeto-card h3 {
+ 
+}
+
+.projeto-card a {
+
+}
+
+.projeto-card a:hover {
+
+}
+
+/* SEÇÃO DE CONTATO E RODAPÉ */
+#contato {
+    
+}
+
+#contato p {
+
+}
+
+.redes-sociais {
+
+}
+
+.redes-sociais a {
+
+}
+
+.redes-sociais a:hover {
+
+}
+
+.redes-sociais svg {
+
+}
+
+.footer {
+
+}
+
+/* MEDIA QUERIES PARA RESPONSIVIDADE */
+
+/* Tablets e telas maiores */
+@media (min-width: 768px) {
+    .nav-links {
+        display: flex;
+    }
+
+    .menu-btn {
+        display: none;
+    }
+
+    #inicio h1 {
+        font-size: 3.75rem;
+    }
+
+    #sobre .sobre-container {
+        flex-direction: row;
+        text-align: left;
+    }
+
+    #sobre .perfil-img {
+        flex-shrink: 0;
+    }
+
+    .projetos-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1024px) {
+    .projetos-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
